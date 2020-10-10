@@ -1,0 +1,57 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/layout/hero.sass";
+@import "~bulma/sass/layout/section.sass";
+
+// Import a Google Font
+// Set your brand colors
+$lightblack: #292931;
+
+
+// Update Bulma's global variables
+$family-sans-serif: 'Open Sans', sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: true;
+
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-item-color:#EAEAE9;
+$navbar-item-hover-color: #E0115F;
+$navbar-item-hover-background-color: transparent;
+$navbar-burger-color: #EAEAE9;
+
+$navbar-background-color:#292931;
+$navbar-box-shadow-color:#292931;
+
+$button-color:#E0115F;
+$button-background-color: transparent;
+$button-border-color: #E0115F;
+$button-border-width: 2px;
+$button-hover-color:#E0115F;
+$button-hover-border-color:#E0115F;
+
+$title-color: #EAEAE9;
+$title-weight: 700;
+
+$card-background-color:rgba(41, 41, 49, 0.9);
+$card-content-padding: 2rem;
+
+$input-color: #EAEAE9;
+$input-placeholder-color: rgba(234, 234, 233, 0.6);;
+$input-background-color: transparent;
+$input-border-color: rgba(234, 234, 233, 0.6);
+$input-hover-border-color: #E0115F;
+$input-focus-border-color:#E0115F;
+
+
+@import "~bulma/bulma";
+
+
+
