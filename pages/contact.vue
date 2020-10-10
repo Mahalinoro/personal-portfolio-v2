@@ -12,7 +12,11 @@
         </svg>
         <p class="about-text mb-6 ce cente">Feel free to contact me if you have any questions, comments or feedback. I am also looking for new opportunities to improve on my skills, 
         if you have any please don’t hesitate to reach out to me!</p>
-        <form class="gform" method="POST">
+        <form class="gform" name="contact" netlify-honeypot="bot-field" method="post" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden">     
+          <label>Don’t fill this out: <input name="bot-field"></label>   
+        </p>
           <div class="field is-horizontal">
             <div class="field-body">
               <div class="field">
@@ -107,6 +111,10 @@ export default {
     width: 500px;
     height: auto;
   }
+
+  .hidden {
+  display: none;
+}
 
 
 </style>
