@@ -10,9 +10,10 @@
         <svg class="ri" width="150" height="5" viewBox="0 0 150 5" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="150" height="5" fill="#E0115F"/>
         </svg>
-        <p class="about-text mb-6 ce cente">Feel free to contact me if you have any questions, comments or feedback. I am also looking for new opportunities to improve on my skills, 
+        <p class="simple-text mb-6 ce">Feel free to contact me if you have any questions, comments or feedback. I am also looking for new opportunities to improve on my skills, 
         if you have any please don’t hesitate to reach out to me!</p>
-        <form class="gform" name="contact" netlify-honeypot="bot-field" method="post" netlify>
+
+        <form class="gform" name="contact" netlify-honeypot="bot-field" action="/thank-you" method="post" netlify>
         <input type="hidden" name="form-name" value="contact" />
         <p class="hidden">     
           <label>Don’t fill this out: <input name="bot-field"></label>   
@@ -87,7 +88,7 @@ export default {
   }
 
   .ce{
-    text-align:center;
+    text-align:center !important;
   }
 
   .le{
@@ -102,10 +103,6 @@ export default {
     left: 400px;
   }
 
-  .cente{
-    margin-left:55px;
-  }
-
   .gform{
     margin:auto;
     width: 500px;
@@ -114,6 +111,12 @@ export default {
 
   .hidden {
   display: none;
+}
+
+.simple-text{
+      color: rgba(234, 234, 233, 0.6);
+    font-weight: normal;
+    font-size: normal;
 }
 
 

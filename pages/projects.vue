@@ -26,10 +26,10 @@
                 <br>
                 <div class="tile is-ancestor is-1">
                     <div class="tile is-parent pr-0">
-                        <span class="is-small pinky">PHP</span>
+                        <span class="is-small pinky x-small">PHP</span>
                     </div>
                     <div class="tile is-parent pr-0">
-                        <span class="is-small pinky">MySQL</span>
+                        <span class="is-small pinky x-small">MySQL</span>
                     </div>
                 </div>
               </div>
@@ -123,8 +123,8 @@ export default {
            {
              title: 'Personal Portfolio V2',
              description: 'A second version of my personal portfolio. The intent of this simple project is to apply learnings and try out Vue.js/Nuxt.js and Bulma as the CSS Framework.',
-             github: '#',
-             demo: '#',
+             github: 'https://github.com/Mahalinoro/personal-portfolio-v2',
+             demo: 'https://mahalinoro.netlify.app/',
              tech: ['Vue.js', 'Nuxt.js', 'Bulma']
            },
             {
@@ -204,7 +204,19 @@ export default {
   }
   
 @media only screen and (max-width: 600px) {
+  .sz{
+    width: 100px;
+    font-size: small;
+  }
+ .projects-text{
+      font-weight: normal;
+      font-size: small;
+      color: rgba(234, 234, 233, 0.6);
+    }
 
+    .x-small{
+      font-size: x-small;
+    }
 }
  
 </style>

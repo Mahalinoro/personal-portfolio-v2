@@ -7,28 +7,28 @@
             <div class="column is-one-quarter is-one-fifth-mobile down">
                 <ul>
                   <li>
-                    <a>
+                    <a href="https://www.linkedin.com/in/mahalinoro-razafimanjato/">
                     <figure class="image is-16x16 mb-5">
                       <img src="~/assets/linkedin.png">
                     </figure>
                     </a>
                   </li>
                   <li>
-                   <a>
+                   <a href="https://github.com/Mahalinoro">
                    <figure class="image is-16x16 mb-5">
                       <img src="~/assets/github.png">
                     </figure>
                     </a>
                   </li>
                   <li>
-                   <a>
+                   <a href="https://dribbble.com/Mahaly">
                     <figure class="image is-16x16 mb-5">
                       <img src="~/assets/dribble.png">
                       </figure>
                     </a>
                   </li>
                   <li>
-                   <a>
+                   <a href="https://twitter.com/mahalinoro_raz">
                     <figure class="image is-16x16 mb-5 img">
                       <img src="~/assets/twitter.png">
                       </figure>
@@ -72,7 +72,7 @@ export default {
 <style lang='scss'>
   .main{
     background: linear-gradient(180deg, #292931 60.55%, rgba(41, 41, 49, 0.86) 93.62%);
-    height: 550px;
+    height: 100vh;
   }
 
   .laptop{

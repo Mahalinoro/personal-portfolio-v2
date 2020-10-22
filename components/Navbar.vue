@@ -36,7 +36,7 @@
                 <div class="navbar-item  ml-5">
                     <div class="field is-grouped">
                         <p class="control">
-                            <a class="button has-text-weight-semibold is-size-6">
+                            <a href="https://www.nucleus.us/resbox/a97298aa-195d-435a-bbdc-71d70c1cc5db" class="button has-text-weight-semibold is-size-6">
                                 <span>Resume</span>
                             </a>
                         </p>

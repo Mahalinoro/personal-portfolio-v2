@@ -5,7 +5,8 @@ export default {
       '/about',
       '/designs',
       '/projects',
-      '/contact'
+      '/contact',
+      '/thank-you'
     ]
   },
 
